@@ -10,7 +10,7 @@ RUN apt update && \
 RUN a2enmod rewrite
 WORKDIR /var/www/html
 
-# Copy your project files into the container
+# Copy your project filess into the container
 COPY . /var/www/html/
 
 # Set permissions
